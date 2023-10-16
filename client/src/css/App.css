@@ -1,0 +1,21 @@
+/* .Nav {
+    text-align: center;
+} */
+
+.title {
+    display: flex;
+    background-color: black;
+    width: 100vw;
+    height: 80px;
+    padding-left: 20px;
+}
+
+.title h1{
+    color: white;
+}
+
+.text_App {
+    border-bottom: 1px solid black;
+    padding-left: 20px;
+    text-align: left;
+}
