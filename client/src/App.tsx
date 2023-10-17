@@ -72,10 +72,15 @@ function App() {
           <h1>ReactBlog</h1>
         </div>
 
+      <h3 id='blogT' style={{margin: '45px 0 10px 0'}}>블로그 상세 내용</h3>
+      {modal_control && <Modal title = {title} id = {modal_id} setTitle={setTitle} name={name} setName={setName}>조금만 더 힘내자</Modal> }
+      {/* === modal_control ? <Modal /> : null 혹은 '' */}
 
-      <button onClick={edit}>글수정</button>
+      {/* <button onClick={edit}>글수정</button> */}
       {/* <button onClick={bloging}>블로그 작성하기</button> */}
       {/* <button onClick={order}>가나다순 정렬</button> */}
+
+      <h3 id='blogT'>블로그 리스트</h3>
 
       {title.map((val) => {
         return<div className='text_App'>
@@ -83,23 +88,6 @@ function App() {
           <p>10월 14일 발행</p>
         </div>
       })}
-
-      {/* <div className='text_App'>
-        <h4>{title[0]} <span onClick={like}>👍</span> {num} </h4>
-        <p>10월 14일 발행</p>
-      </div>
-      <div className='text_App'>
-        <h4>{title[1]}</h4>
-        <p>10월 14일 발행</p>
-      </div>
-      <div className='text_App'>
-        <h4>{title[2]}</h4>
-        <p>10월 14일 발행</p>
-      </div> */}
-
-      {modal_control && <Modal title = {title} id = {modal_id} setTitle={setTitle} name={name} setName={setName}>조금만 더 힘내자</Modal> }
-      {/* === modal_control ? <Modal /> : null 혹은 '' */}
-
 
     </div>
   );
