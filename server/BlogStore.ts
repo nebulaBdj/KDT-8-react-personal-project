@@ -37,7 +37,7 @@
 //             newState[0].title = action.data.title;
 
 
-//             return Array.prototype.push.apply(state, newState);
+            // return Array.prototype.push.apply(state, newState);
 
 //         default:
 //             return state;

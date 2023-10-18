@@ -1,5 +1,5 @@
 import { Dispatch, SetStateAction } from 'react'
-import './css/Modal.css'
+import '../css/Modal.css'
 
 interface Title {
     id : number;
