@@ -3,3 +3,12 @@
     background-color: #eee;
     /* 상우하좌 */
 }
+
+#story{
+    width: 100%;
+    box-sizing: border-box;
+	border: solid 2px #66b0f9;
+	border-radius: 5px;
+	font-size: 14px;
+	resize: both;
+}
