@@ -10,5 +10,6 @@
 	border: solid 2px #66b0f9;
 	border-radius: 5px;
 	font-size: 14px;
-	resize: both;
+	resize: none;
+    height: 300px;
 }
